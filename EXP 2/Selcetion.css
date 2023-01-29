@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .bg {
+    background-image: url("image.jpg");
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .video{
+    object-fit: fill;
+  }
+  h1:hover{
+    text-shadow: 0 0 5px #ff0000;
+  }
+  .color img{
+  filter: grayscale(100%);
+  }
+  
+  .color img:hover{
+  filter:none;
+  transition: 1s ease;
+  }
+  
+  .row {
+    top: 25%;
+    padding: 35px;
+  }

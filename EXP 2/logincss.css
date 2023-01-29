@@ -1,0 +1,27 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-image: url(godofwar.jpg);
+    background-size: cover;
+}
+.style{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.one{
+    background-image: url(godofwar.jpg);
+}
+hr{
+    border-width: 2px;
+}
+label{
+    width: 140px;
+    display: inline-block;
+    padding: 5px;
+    background-color: gray;
+}
+input{
+    text-align: center;
+    color: green;
+}
